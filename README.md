@@ -32,7 +32,7 @@ Outline of Files in flavin_fun Repository
 -------
 1. **atom_type_count.ipynb** - Outputs the frequency of chemical types surrounding the whole isoalloxazine structure in the flavoprotein and, more specifically, the frequency of chemical types surrounding individual atoms within the isoalloxazine.
 
-2. **cluster.ipynb**- First, finds the frequency of chemical types surrounding the whole isoalloxazine structure in each flavoprotein. A k-means clustering analysis is run on all the flavoproteins based frequency of the chemical types found in the first step and a CSV file is generated that contains the frequency of chemical types surrounding the isoalloxazine structure for each flavoprotein and which k-means clustering group the flavoprotein belongs in. 
+2. **cluster.ipynb**- First, finds the frequency of chemical types surrounding the whole isoalloxazine structure in each flavoprotein. A k-means clustering analysis is run on all the flavoproteins based frequency of the chemical types found in the first step and a CSV file is generated that contains the frequency of chemical types surrounding the isoalloxazine structure for each flavoprotein and which k-means clustering group the flavoprotein belongs in. *this file can only be run if the user downloads all Protein Database FMN and FAD flavoprotein molecules
 
 3. **code.csv**- Contains the chemical code mapping associated with the atoms and their residues. 
 
@@ -40,5 +40,10 @@ Outline of Files in flavin_fun Repository
 
 5. **distances.ipynb**- Outputs CSV file of distance between reference atoms, isoalloxazine in flavoprotein specificied by user, and surrounding atoms in Ångström range specified by user. 
 
-6. **pdb_codes.txt**- Contains all FMN and FAD flavoprotein molecules on the PDB (Updated as of April 10, 2018).
+6. **pdb_codes.txt**- Contains all FMN and FAD flavoprotein molecules on the Protein Data Bank (Updated as of April 10, 2018).
 
+Tradeoffs 
+-------
+1. Data is acquired from the Protein Data Bank, any errors in flavoprotein information may be due to PDB standards.
+2. Clustering tool is only functional with use of the local USB drive.
+3. New flavoprotein molecules must be downloaded onto the USB drive in the FlavinTest folder.
