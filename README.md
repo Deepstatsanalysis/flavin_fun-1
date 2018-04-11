@@ -3,13 +3,13 @@
 Programs Needed to Run Files
 -------
 To properly get all the scripts to run you must have the following programs and packages: 
-  *Python 3 
-  *Jupyter Notebook 
-  *Anaconda Navigator 
-  *BioPandas
-  *NumPy (1.11.2) 
-  *SciPy (0.18.1)
-  *Pandas (0.19.1) 
+  * Python 3 
+  * Jupyter Notebook 
+  * Anaconda Navigator 
+  * BioPandas
+  * NumPy (1.11.2) 
+  * SciPy (0.18.1)
+  * Pandas (0.19.1) 
 
 How to Install Programs
 -------
@@ -30,14 +30,15 @@ If unsure how to clone repository and pull github files, please reference https:
 
 Outline of Files in flavin_fun Repository 
 -------
+1. **atom_type_count.ipynb** - Outputs the frequency of chemical types surrounding the whole isoalloxazine structure in the flavoprotein and, more specifically, the frequency of chemical types surrounding individual atoms within the isoalloxazine.
 
+2. **cluster.ipynb**- First, finds the frequency of chemical types surrounding the whole isoalloxazine structure in each flavoprotein. A k-means clustering analysis is run on all the flavoproteins based frequency of the chemical types found in the first step and a CSV file is generated that contains the frequency of chemical types surrounding the isoalloxazine structure for each flavoprotein and which k-means clustering group the flavoprotein belongs in. 
 
+3. **code.csv**- Contains the chemical code mapping associated with the atoms and their residues. 
 
+4. **code_labels.csv**- Contains the chemical label associated with the chemical code. 
 
-and open atom_type_count.ipynb, cluster.ipynb, or distances.ipynb. 
+5. **distances.ipynb**- Outputs CSV file of distance between reference atoms, isoalloxazine in flavoprotein specificied by user, and surrounding atoms in Ångström range specified by user. 
 
-
-simply do ``sudo pip install annoy`` to pull down the latest version from `PyPI <https://pypi.python.org/pypi/annoy>`_.
-
-For the C++ version, just clone the repo and ``#include "annoylib.h"``.
+6. **pdb_codes.txt**- Contains all FMN and FAD flavoprotein molecules on the PDB (Updated as of April 10, 2018).
 
