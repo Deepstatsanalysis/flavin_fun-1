@@ -2,7 +2,14 @@
 
 Programs Needed to Run Files
 -------
-To properly get all the scripts to run you must have the following programs and packages: Python 3, Jupyter Notebook, Anaconda Navigator, BioPandas, NumPy (1.11.2), SciPy (0.18.1), and Pandas (0.19.1). 
+To properly get all the scripts to run you must have the following programs and packages: 
+  *Python 3 
+  *Jupyter Notebook 
+  *Anaconda Navigator 
+  *BioPandas
+  *NumPy (1.11.2) 
+  *SciPy (0.18.1)
+  *Pandas (0.19.1) 
 
 How to Install Programs
 -------
