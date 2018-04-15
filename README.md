@@ -58,9 +58,9 @@ Outline of Files in flavin_fun Repository
 
 5. **cluster_dataframe.ipynb** Allows the user to display specified clusters from the CSV file. If the user wants to see the flavoproteins in cluster 1, then this script allows this.
 
-6. **code.csv**- Contains the chemical code mapping associated with the atoms and their residues. 
+6. **chemical_codes.csv**- Contains the chemical code mapping associated with the atoms and their residues. 
 
-7. **code_labels.csv**- Contains the chemical label associated with the chemical code. 
+7. **chemical_types.csv**- Contains the chemical label associated with the chemical code. 
 
 8. **pdb_codes.txt**- Contains all FMN and FAD flavoprotein molecules on the Protein Data Bank (Updated as of April 10, 2018).
 
